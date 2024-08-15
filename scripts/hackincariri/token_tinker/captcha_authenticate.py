@@ -44,6 +44,7 @@ def main(usernames_file):
         time.sleep(0.1)  # Small delay to ensure the print happens correctly
     
     print("\nFinished testing all usernames.")
+    
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
